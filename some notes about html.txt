@@ -1,0 +1,79 @@
+Double body tag are used to tag content or warp content
+<tagname>Put your content here</tagname>
+Example:
+<h1.This is heading tag</h1>
+
+Single body tag are use to display content or sent command
+<tagname attribute="value"/>
+Example:
+<img src="image.jpg"/>
+
+<head></head>: head tag er vitore amra ro tag rakhte pari exmp:
+<title>
+<link>
+<meta>
+<style>
+<script>
+<base>
+
+Add Favicon:
+<link rel="icon" type="img/x-icon" herf="favicon.ico"/>
+website where we get favicon:https://www.favicon-generator.org
+
+metadata is use by browsers(how to display content or reloade page),
+search engines(keyword),and other web site.some meta tag:
+charset : <meta charset="utf-8">
+name : <meta name="author" content="setu">
+http-equiv: <meta http-enquiv="refresh" content="5">
+
+website visible part: image, text,video,audio
+
+Basic text formatting tags:
+bold <b></b>
+italic <i></i>
+underline <u></u>
+strike <strike></strike>
+monospace <tt>
+superScript <sup></sup>
+subScript <sub></sub>
+small <small></small>
+
+HTML List:
+1. Order list <ol>: disc,circle,square,none
+2. UnorderList <ul>
+3. Defination List <dl> : dt, dd
+
+comment: <!--Hiiiiiiiiiiii-->
+
+html file path:
+Path	                              Description
+<img src="picture.jpg">	            The "picture.jpg" file is located in the same folder as the current page
+<img src="images/picture.jpg">	The "picture.jpg" file is located in the images folder in the current folder
+<img src="/images/picture.jpg">	The "picture.jpg" file is located in the images folder at the root of the current web
+<img src="../picture.jpg">	      The "picture.jpg" file is located in the folder one level up from the current folder
+
+Add image: <img src="A.jpg" alt="" width="200px" hight="200px">
+
+HTML links: Text link: <a href="link here">Link click</a>
+Image link: <a href="link here><img src="image link"/></a>
+
+
+Html table:
+<table border="1" cellpadding="10" cellspacing="10" bgcolor="#eee" bordercolor="red" >
+            <tr>
+            <th>Data 1</th>
+            <th>Data 1</th>
+           
+            <tr>
+                <tr>
+                    <td colspan="2">Abir</td>
+                   
+                </tr>
+        </table>
+html form ai folder e ache!attach file
+inline element: side e space niye then porer tar jayga thakle space dey
+block element: pure block ta niye ney jemon pura row
+
+
+
+
